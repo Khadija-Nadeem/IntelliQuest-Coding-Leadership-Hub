@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QDialog" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>30</y>
+     <width>941</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Algerian</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>IntelliQuest: Coding &amp; eLeadership Hub</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>390</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FF00FF, stop:1 #8A2BE2); /* Magenta to purple */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.6); /* Soft glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #8A2BE2, stop:1 #FF00FF); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #BA55D3; /* Slightly darker */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>   How To Play</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/how to play icon.png</normaloff>:/images/icons &amp; images/how to play icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>300</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #00FF7F, stop:1 #1E90FF); /* Neon green to blue */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.6); /* Soft glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #1E90FF, stop:1 #00FF7F); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #00FA9A; /* Slightly darker */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>  Leaderboard Preview</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/leaderboard icon.png</normaloff>:/images/icons &amp; images/leaderboard icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>390</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #00FF7F, stop:1 #1E90FF); /* Neon green to blue */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.6); /* Soft glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #1E90FF, stop:1 #00FF7F); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #00FA9A; /* Slightly darker */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>   Profile</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/profile icon.png</normaloff>:/images/icons &amp; images/profile icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>480</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #00FF7F, stop:1 #1E90FF); /* Neon green to blue */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.6); /* Soft glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #1E90FF, stop:1 #00FF7F); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #00FA9A; /* Slightly darker */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>   Fun Facts</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/fun fact icon.png</normaloff>:/images/icons &amp; images/fun fact icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>70</y>
+     <width>581</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <italic>true</italic>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(227, 227, 227)</string>
+   </property>
+   <property name="text">
+    <string>Where Learning Meets Fun – Start Your Quiz Journey Today!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startQuizButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>200</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FFB347, stop:1 #FF3F3F); /* Golden-orange to red */
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 35px;
+    box-shadow: 0 0 15px rgba(255, 63, 63, 0.8);
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FF3F3F, stop:1 #FFB347); /* Reverse gradient */
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+}
+
+QPushButton:pressed {
+    background-color: #FF6347; /* Slightly darker */
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>   Start Quiz</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/start quiz icon.png</normaloff>:/images/icons &amp; images/start quiz icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>480</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FF4500, stop:1 #B22222); /* Bright red to deep red */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.6); /* Soft red glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #B22222, stop:1 #FF4500); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #8B0000; /* Dark red */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Soft white glow */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>  LogOut</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/logout icon.png</normaloff>:/images/icons &amp; images/logout icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1281</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ImagesAndIcons.qrc">:/images/icons &amp; images/home page.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>300</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #FF00FF, stop:1 #8A2BE2); /* Magenta to purple */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.6); /* Soft glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #8A2BE2, stop:1 #FF00FF); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.9); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #BA55D3; /* Slightly darker */
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>   Daily Challenge</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/daily challenges icon.png</normaloff>:/images/icons &amp; images/daily challenges icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userIdLabel">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Space between the text and border */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>startQuizButton</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>userIdLabel</zorder>
+ </widget>
+ <resources>
+  <include location="ImagesAndIcons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

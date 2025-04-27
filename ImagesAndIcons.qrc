@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>icons &amp; images/achievement icon.png</file>
+        <file>icons &amp; images/are you ready image.jpg</file>
+        <file>icons &amp; images/back icon.png</file>
+        <file>icons &amp; images/daily challenge question page.jpg</file>
+        <file>icons &amp; images/daily challenge start icon.png</file>
+        <file>icons &amp; images/daily challenges icon.png</file>
+        <file>icons &amp; images/daily challenges page.jpg</file>
+        <file>icons &amp; images/delete profile icon.png</file>
+        <file>icons &amp; images/facts Image.png</file>
+        <file>icons &amp; images/fun fact icon.png</file>
+        <file>icons &amp; images/fun facts page.jpg</file>
+        <file>icons &amp; images/home page.jpg</file>
+        <file>icons &amp; images/how to play icon.png</file>
+        <file>icons &amp; images/how to play page.jpg</file>
+        <file>icons &amp; images/leaderboard icon.png</file>
+        <file>icons &amp; images/leaderboard page.jpg</file>
+        <file>icons &amp; images/next fact icon.png</file>
+        <file>icons &amp; images/next icon.png</file>
+        <file>icons &amp; images/play now icon.png</file>
+        <file>icons &amp; images/player journey page.jpg</file>
+        <file>icons &amp; images/previous icon.png</file>
+        <file>icons &amp; images/profile icon.png</file>
+        <file>icons &amp; images/profile page.jpg</file>
+        <file>icons &amp; images/quiz page.jpg</file>
+        <file>icons &amp; images/refresh icon.png</file>
+        <file>icons &amp; images/search icon.png</file>
+        <file>icons &amp; images/signup page.jpg</file>
+        <file>icons &amp; images/start icon.png</file>
+        <file>icons &amp; images/start page.jpg</file>
+        <file>icons &amp; images/start quiz icon.png</file>
+        <file>icons &amp; images/start quiz page.jpg</file>
+        <file>icons &amp; images/restart daily challenge.png</file>
+        <file>icons &amp; images/topic_10583992.png</file>
+        <file>icons &amp; images/logout icon.png</file>
+    </qresource>
+</RCC>

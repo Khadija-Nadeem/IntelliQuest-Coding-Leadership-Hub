@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profile</class>
+ <widget class="QDialog" name="profile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>703</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ImagesAndIcons.qrc">:/images/icons &amp; images/profile page.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>0</y>
+     <width>511</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Algerian</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color for a fresh, energetic vibe */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    background-color: transparent; /* No background */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>🎮 Quiz Master 🧠 Profile</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            color: #FFFFFF; /* White text */
+            font-size: 18px;
+            font-weight: bold;
+        }</string>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>220</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            color: #FFFFFF; /* White text */
+            font-size: 18px;
+            font-weight: bold;
+        }</string>
+   </property>
+   <property name="text">
+    <string>Email:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>150</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #4CAF50, stop:1 #2E8B57); /* Green gradient */
+    border: 3px solid #FFD700; /* Golden border */
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Golden glow */
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #2E8B57, stop:1 #4CAF50); /* Reverse gradient */
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 1); /* Brighter glow */
+}
+
+QPushButton:pressed {
+    background-color: #3CB371; /* Slightly darker green */
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Subtle glow */
+}</string>
+   </property>
+   <property name="text">
+    <string>🖋️ Edit Mastery</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_changePassword">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>290</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 2px solid #6A0572; /* Purple border */
+    border-radius: 15px;
+     color: #FFFFFF; /* White text */
+      font-size: 18px;
+      font-weight: bold;
+    padding: 8px 20px;
+}
+
+QPushButton:hover {
+    background-color: #6A0572; /* Purple hover */
+    color: #FFFFFF; /* Keep text white */
+}</string>
+   </property>
+   <property name="text">
+    <string>Change Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>170</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QLineEdit {
+            background-color: #0F3460; /* Blue-gray */
+            border: 2px solid #E94560; /* Red border */
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+        }
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_email">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>230</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QLineEdit {
+            background-color: #0F3460; /* Blue-gray */
+            border: 2px solid #E94560; /* Red border */
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+        }</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>280</y>
+     <width>341</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>291</width>
+      <height>207</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_new">
+       <property name="styleSheet">
+        <string notr="true"> QLineEdit {
+            background-color: #0F3460; /* Blue-gray */
+            border: 2px solid #E94560; /* Red border */
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+        }</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::EchoMode::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>New Password...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_confirm">
+       <property name="styleSheet">
+        <string notr="true"> QLineEdit {
+            background-color: #0F3460; /* Blue-gray */
+            border: 2px solid #E94560; /* Red border */
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+        }</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::EchoMode::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Confirm Password...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QCheckBox" name="checkBox_showPassword">
+       <property name="styleSheet">
+        <string notr="true">QCheckBox {
+            color: #FFFFFF;
+            font-size: 16px;
+        }</string>
+       </property>
+       <property name="text">
+        <string> Show Passwords</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+            background-color: #FFFFFF; /* White */
+            border: 1px solid #0F3460; /* Blue border */
+            border-radius: 10px;
+            color: #1A1A2E; /* Dark text */
+            font-size: 12px;
+            padding: 5px 15px;
+        }
+
+        QPushButton:hover {
+            background-color: #E0E0E0; /* Light gray hover */
+        }</string>
+       </property>
+       <property name="text">
+        <string>Save Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_current">
+       <property name="styleSheet">
+        <string notr="true"> QLineEdit {
+            background-color: #0F3460; /* Blue-gray */
+            border: 2px solid #E94560; /* Red border */
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            padding: 8px;
+        }</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::EchoMode::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Current Password...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_saveChanges">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>520</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+            background-color: #FFB347; /* Orange gradient */
+            border: 3px solid #FFD700; /* Golden border */
+            border-radius: 20px;
+            color: #1A1A2E; /* Dark text */
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px 25px;
+        }
+
+        QPushButton:hover {
+            background-color: #FFD700; /* Golden hover */
+            transform: scale(1.05);
+        }</string>
+   </property>
+   <property name="text">
+    <string>📝 Crown My Updates!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>520</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+            background-color: #FFB347; /* Orange gradient */
+            border: 3px solid #FFD700; /* Golden border */
+            border-radius: 20px;
+            color: #1A1A2E; /* Dark text */
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px 25px;
+        }
+
+        QPushButton:hover {
+            background-color: #FFD700; /* Golden hover */
+            transform: scale(1.05);
+        }</string>
+   </property>
+   <property name="text">
+    <string>❌  Stay the Same!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/dell/Downloads/arrow_14034415.png</normaloff>C:/Users/dell/Downloads/arrow_14034415.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>70</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Customize Your Quiz Master Identity</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_deleteProfile">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>590</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #e74c3c;            /* Red background for urgency */
+    color: white;                         /* White text on the button */
+    border: none;                         /* Remove border */
+    border-radius: 5px;                   /* Rounded corners */
+    padding: 15px 30px;                    /* Padding around button text */
+    font-size: 15px;                       /* Larger text for the button */
+    font-weight: bold;                     /* Bold text to make it stand out */
+    cursor: pointer;                      /* Change cursor to pointer on hover */
+    transition: background-color 0.3s;     /* Smooth transition for hover effect */
+}
+
+/* Button Hover Effect */
+QPushButton:hover {
+    background-color: #c0392b;            /* Darker red when hovered */
+}
+
+/* Button Pressed Effect */
+QPushButton:pressed {
+    background-color: #9b2d1e;            /* Even darker red when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string> Delete My Profile</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/delete profile icon.png</normaloff>:/images/icons &amp; images/delete profile icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>590</y>
+     <width>511</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: white;                         /* White text for visibility */
+    font-size: 16px;                       /* Slightly larger text for emphasis */
+    font-weight: bold;                     /* Make the label text bold */
+    background-color: #2c3e50;            /* Dark background for the label */
+    border: 2px solid #34495e;            /* Border around the label */
+    padding: 10px;                         /* Padding around the text */
+    border-radius: 8px;                    /* Rounded corners */
+}</string>
+   </property>
+   <property name="text">
+    <string>Are you sure you want to permanently delete your profile?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ImagesAndIcons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

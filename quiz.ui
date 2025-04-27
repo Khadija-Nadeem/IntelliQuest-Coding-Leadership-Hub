@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>quiz</class>
+ <widget class="QDialog" name="quiz">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>703</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ImagesAndIcons.qrc">:/images/icons &amp; images/quiz page.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="questionLabel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>200</y>
+     <width>861</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+        }
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>380</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton {
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05); /* Pseudo-effect using hover to add glow */
+        }
+
+        QRadioButton::indicator {
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton::indicator:checked {
+            background-color: #00ff00;
+            border-color: #00ff00;
+        }</string>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>490</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton {
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05); /* Pseudo-effect using hover to add glow */
+        }
+
+        QRadioButton::indicator {
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton::indicator:checked {
+            background-color: #00ff00;
+            border-color: #00ff00;
+        }</string>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>380</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton {
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05); /* Pseudo-effect using hover to add glow */
+        }
+
+        QRadioButton::indicator {
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton::indicator:checked {
+            background-color: #00ff00;
+            border-color: #00ff00;
+        }</string>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton4">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>490</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton {
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05); /* Pseudo-effect using hover to add glow */
+        }
+
+        QRadioButton::indicator {
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+
+        QRadioButton::indicator:checked {
+            background-color: #00ff00;
+            border-color: #00ff00;
+        }</string>
+   </property>
+   <property name="text">
+    <string>RadioButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>580</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+            transition: 0.3s ease-in-out;
+        }
+
+        QPushButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }</string>
+   </property>
+   <property name="text">
+    <string>  Next Question</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ImagesAndIcons.qrc">
+     <normaloff>:/images/icons &amp; images/next icon.png</normaloff>:/images/icons &amp; images/next icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdScore">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>40</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ImagesAndIcons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
